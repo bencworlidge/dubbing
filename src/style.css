@@ -1,0 +1,143 @@
+/* COLORS 
+#20232A black
+#ACBEBE grey
+#F4F4EF white
+#A01D26 red */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4ef;
+}
+
+svg {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+  font-family: "PT Sans";
+  font-weight: bold;
+  color: #20232a;
+  margin-top: 0px;
+}
+
+h1 {
+  text-shadow: 2px 2px #f4f4ef;
+}
+
+p {
+  font-family: "PT Sans";
+  color: #20232a;
+}
+
+html,
+body,
+.hero {
+  height: 100%;
+}
+
+i {
+  color: #000;
+  font-size: 30px;
+}
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+}
+
+.about i {
+  font-size: 4rem;
+  margin: 1rem;
+}
+
+#vector1 {
+  animation: right 1s ease;
+}
+
+@keyframes right {
+  from {
+    transform: translate(-20000px, -7000px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+
+#vector2 {
+  animation: left 1s ease;
+}
+
+@keyframes left {
+  from {
+    transform: translate(20000px, -5000px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+
+#cv-button {
+  animation: opacity 2s ease;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+hr {
+  height: 5px;
+  background-color: #a01d26;
+  border: none;
+  width: 100%;
+}
+
+.card,
+.card-reveal {
+  background-color: #f4f4ef;
+}
+
+.contact i {
+  color: #20232a;
+}
+
+#particles-js {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f4f4ef;
+  z-index: -2;
+}
+
+.hero-arrow {
+  position: absolute;
+  bottom: 10px;
+  left: 50vw;
+  color: #20232a;
+  font-size: xx-large;
+  text-shadow: 2px 2px #f4f4ef;
+}
+
+.spacer {
+  height: 3rem;
+}
+
+.icons img {
+  max-width: 30px;
+}
