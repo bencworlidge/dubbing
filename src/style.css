@@ -111,6 +111,7 @@ hr {
 .card,
 .card-reveal {
   background-color: #f4f4ef;
+  pointer-events: none;
 }
 
 .contact i {
