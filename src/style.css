@@ -142,3 +142,12 @@ hr {
 .icons img {
   max-width: 30px;
 }
+
+a {
+  color: #75787a;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #20232a;
+}
